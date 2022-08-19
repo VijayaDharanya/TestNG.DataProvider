@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <parameter name="URl" value="http://leaftaps.com/opentaps/"/>
+  <test thread-count="5" name="leaftap-chrome(failed)" verbose="10">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="testcase.testcase.MergeLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="mergeLead"/>
+        </methods>
+      </class> <!-- testcase.testcase.MergeLead -->
+      <class name="testcase.testcase.DeleteLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="deleteLead"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcase.testcase.DeleteLead -->
+      <class name="testcase.testcase.EditLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="editLead"/>
+        </methods>
+      </class> <!-- testcase.testcase.EditLead -->
+      <class name="testcase.testcase.DuplicateLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="duplicateLead"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcase.testcase.DuplicateLead -->
+      <class name="testcase.testcase.CreateLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="createLead"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcase.testcase.CreateLead -->
+    </classes>
+  </test> <!-- leaftap-chrome(failed) -->
+  <test thread-count="5" name="leaftap-edge(failed)" verbose="10">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="testcase.testcase.MergeLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="mergeLead"/>
+        </methods>
+      </class> <!-- testcase.testcase.MergeLead -->
+      <class name="testcase.testcase.DeleteLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="deleteLead"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcase.testcase.DeleteLead -->
+      <class name="testcase.testcase.EditLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="editLead"/>
+        </methods>
+      </class> <!-- testcase.testcase.EditLead -->
+      <class name="testcase.testcase.DuplicateLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="duplicateLead"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcase.testcase.DuplicateLead -->
+      <class name="testcase.testcase.CreateLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="createLead"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcase.testcase.CreateLead -->
+    </classes>
+  </test> <!-- leaftap-edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->
